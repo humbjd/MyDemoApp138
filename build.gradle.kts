@@ -13,7 +13,8 @@ dependencies {
     testImplementation("org.testng:testng:7.8.0")
     testImplementation("org.hamcrest:hamcrest:2.2")
     implementation("io.appium:java-client:8.5.1")
-
+    implementation("io.cucumber:cucumber-java:7.13.0")
+    implementation("io.cucumber:cucumber-testng:7.13.0")
 }
 
 tasks.test {

@@ -51,7 +51,7 @@ public class Mochila {
     @Test
     public void selecionarMochila() {
         // Tela Principal
-        WebElement imgProduto = (WebElement) driver.findElement(By.xpath("//android.widget.ImageView[@content-desc=\"Sauce Labs Backpack\"]"));
+        WebElement imgProduto = (WebElement) driver.findElement(By.xpath("//android.widget.ImageView[@content-desc=\""+ nomeProduto + "\"]"));
         imgProduto.click();
 
         // Tela do Produto
